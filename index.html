@@ -3,7 +3,187 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Hair Salon</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="nav-container">
+        <nav>
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <div class="nav-menu">
+            <img src="./images/logo.png" class="logo" alt="twisted scissors logo" />
+            <a class="nav-link" href="./index.html">Home</a>
+            <a class="nav-link" href="./about/about.html">About Us</a>
+
+            <a class="nav-link" href="./gallery/gallery.html">Our Work</a>
+            <a class="nav-link" href="./blog/blog.html">Our Blog</a>
+            <a class="nav-link nav-button" href="./getintouch/contact.html"><button class="contact">Book An Appointment</button></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- <div class="text">
+        <h1>Hair & There</h1>
+        <a class="text-link">PICK YOUR POISON →</a>
+      </div> -->
+
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/shop.jpg" alt="Los Angeles" width="1100" height="500" />
+            <div class="carousel-caption">
+              <h1 class="caption-title">Hair & There</h1>
+              <a class="text-link">PICK YOUR POISON →</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/parallax.jpg" alt="Chicago" width="1100" height="500" />
+            <div class="carousel-caption">
+              <h1 class="caption-title">Hello</h1>
+              <a class="text-link">PICK YOUR POISON →</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/blog.jpg" alt="New York" width="1100" height="500" />
+            <div class="carousel-caption">
+              <h1 class="caption-title">Hello</h1>
+              <a class="text-link">PICK YOUR POISON →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+      <div class="bio">
+        <h1 class="bio-title">We Do Hair – all kinds of hair</h1>
+        <p class="bio-text">Twisted Scissors Chicago was opened in 2007 by owners Anna Armes, Angela Bolos-Hartman and Amber Murphy-Huels. What started as a small store front in Logan Square with 6 stylist stations, a waiting room made up of lawn chairs, and a cooler full of PBR has now expanded to a second location--Little Sister Avondale, and a full spa at our Logan Square location.</p>
+        <button>READ MORE</button>
+      </div>
+      <hr />
+      <div class="work-gallery">
+        <h1 class="bio-title">Our Work</h1>
+        <p class="bio-text">Check out some of our work!</p>
+        <div class="gallery">
+          <div class="row">
+            <div class="column">
+              <div class="container">
+                <img class="image" src="./images/gal-1.jpeg" alt="" />
+              </div>
+              <div class="container">
+                <img class="image" src="./images/gal-2.jpeg" alt="" />
+              </div>
+            </div>
+            <div class="column">
+              <div class="container">
+                <img class="image" src="./images/gal-3.jpeg" alt="" />
+              </div>
+              <div class="container">
+                <img class="image" src="./images/gal-4.jpeg" alt="" />
+              </div>
+            </div>
+            <div class="column">
+              <div class="container">
+                <img class="image" src="./images/gal-5.jpeg" alt="" />
+              </div>
+              <div class="container">
+                <img class="image" src="./images/gal-6.jpeg" alt="" />
+              </div>
+            </div>
+            <div class="column">
+              <div class="container">
+                <img class="image" src="./images/gal-7.jpeg" alt="" />
+              </div>
+              <div class="container">
+                <img class="image" src="./images/gal-8.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax tattoo"><img alt="" /></div>
+      <div class="bio">
+        <img src="./images/cutters.jpg" alt="" />
+        <h1 class="bio-title">Our stylists</h1>
+        <p class="bio-text">Meet our talented hair wizards!</p>
+        <button>OUR CREW</button>
+      </div>
+      <div class="parallax windows"><img /></div>
+      <div class="services">
+        <div class="service-row">
+          <img src="./images/Hair.jpg" alt="" />
+
+          <div class="overlay-text"><button>Hair</button>SERVICES & PRICING</div>
+        </div>
+        <div class="service-row">
+          <img src="./images/Spa.jpg" alt="" />
+
+          <div class="overlay-text"><button>Spa</button>SERVICES & PRICING</div>
+        </div>
+      </div>
+      <hr />
+      <footer>
+        <div class="footer-row">
+          <div class="footer-logo"><img src="./images/logo.png" class="" alt="twisted scissors logo" /></div>
+          <div class="contact-col">
+            <div class="footer-title">
+              <h4>TWISTED SCISSORS CHICAGO</h4>
+              <br /><strong>773.227.1077</strong> <br /><a href="mailto:reception@twistedscissorschicago.com">reception@twistedscissorschicago.com</a>
+            </div>
+            <div class="logan">
+              <strong>Logan Square</strong><br />
+              2007 N Point<br />
+              Chicago, IL 60647<br /><br />
+
+              <strong
+                >Mon - Fri: 11am - 8pm<br />
+                Sat: 10am - 5pm<br />
+                Sun: 12pm - 7pm</strong
+              >
+            </div>
+
+            <div class="avondale">
+              <strong>Avondale</strong><br />
+              3049 N Milwaukee Ave<br />
+              Chicago, IL 60618<br /><br />
+
+              <strong
+                >Wed - Fri: 11am - 8pm<br />
+                Sat: 10am - 5pm<br />
+                Sun: 12pm - 7pm</strong
+              >
+            </div>
+          </div>
+          <div class="social">
+            <a href="https://www.instagram.com/twistedscissorschicago/"><img src="./images/instagram-brands.svg" /></a>
+            <a href="https://www.facebook.com/TwistedScissorsChicago/"><img class="facebook" src="./images/facebook-f-brands.svg" /></a>
+            <a href="https://twitter.com/twistedscissor5?lang=en"><img src="./images/twitter-brands.svg" /></a>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <a href="./index.html">HOME</a>
+          <a href="./about/about.html">ABOUT US</a>
+          <a href="./gallery/gallery.html">OUR WORK</a>
+          <a href="./blog/blog.html">OUR BLOG</a>
+        </div>
+      </footer>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./scripts.js"></script>
+  </body>
 </html>
