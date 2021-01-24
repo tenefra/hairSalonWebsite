@@ -1,0 +1,115 @@
+h1 {
+  font-size: 8rem;
+}
+
+hr {
+  width: 100%;
+  margin: 40px 0;
+}
+
+.title {
+  text-align: center;
+  padding: 40px 0 20px;
+}
+
+.bio {
+  text-align: start;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0 60px;
+  width: 50%;
+}
+
+.index-gallery {
+  width: 100%;
+  height: 65vh;
+  filter: brightness(0.8);
+  background-image: url("../images/our-crew.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.crew-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.owners,
+.stylists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.owners img,
+.stylists img {
+  width: 350px;
+  padding: 20px;
+}
+
+.manager {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.manager img {
+  width: 30%;
+  height: 20%;
+  object-fit: cover;
+  object-position: 20% 10%;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+    padding: 0;
+  }
+  .index-gallery {
+    width: 100%;
+    height: 25vh;
+  }
+  .bio {
+    width: 100%;
+    padding: 0;
+  }
+
+  .text {
+    top: 22%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .text h1 {
+    padding-bottom: 0;
+  }
+
+  .crew-container {
+    width: 100%;
+  }
+
+  .owners,
+  .stylists {
+    flex-direction: column;
+  }
+
+  .owners img {
+    width: 350px;
+  }
+
+  .manager img {
+    width: 350px;
+  }
+
+  .stylists img {
+    padding: 0;
+  }
+}
