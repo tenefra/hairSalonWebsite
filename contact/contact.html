@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="./about-styles.css" />
+    <link rel="stylesheet" href="./contact-styles.css" />
     <title>About</title>
   </head>
   <body>
@@ -23,7 +23,7 @@
 
             <a class="nav-link" href="../gallery/gallery.html">Our Work</a>
             <a class="nav-link" href="../blog/blog.html">Our Blog</a>
-            <a class="nav-link nav-button" href="../contact/contact.html"><button class="contact">Book An Appointment</button></a>
+            <a class="nav-link nav-button" href="./contact.html"><button class="contact">Book An Appointment</button></a>
           </div>
         </nav>
       </div>
@@ -33,18 +33,58 @@
         <h1>About Us</h1>
       </div>
       <div class="index-gallery"></div>
-      <div class="bio">
-        <p class="bio-text">Twisted Scissors Chicago was opened in 2007 by owners Anna Armes, Angela Bolos-Hartman and Amber Murphy-Huels. What started as a small store front in Logan Square with 6 stylist stations, a waiting room made up of lawn chairs, and a cooler full of PBR has now expanded to a second location--Little Sister Avondale, and a full spa at our Logan Square location.</p>
-        <img src="../images/garden.jpg" alt="" />
-        <p class="bio-text">
-          Both locations offer a unique and eccentric environment with friendly and talented staff! We offer coloring services of any color of the rainbow and cuts that range from long and layered to short and edgy! Our spa offers a wide range of services including lash extensions and customized facials.
-          <br /><br />
-          We want our clients to feel comfortable, so we invite you to sit down on our comfy couches, relax with a beer or glass or wine and enjoy any uniquely tailored services with one of our talented stylists. As a female and LGBTQ owned and operated business we offer a safe space to all walks of life. We’re proud to partner with Strands for Trans, a movement that lists businesses who offer discrimination-free salon services to all.
-          <br /><br />
-          In addition to it’s punk-chic environment, Twisted Scissors also operates as a green salon by proudly partnering with Green Circle Salon to divert 90% of salon waste from landfills. We also work with Healthy Soil Compost and The Illinois Food Scrap Coalition to turn compost into fresh soil! In return, Healthy Soil compost provides us with castings to grow our beautiful backyard vegetable garden at Little Sister Avondale.
-          <br /><br />
-          We want every person that walks in our doors to love their experience and love their hair even more. We know it hurts to be beautiful, but Twisted Scissors makes it hurt a little less.
-        </p>
+      <div class="main-container">
+        <div class="locations">
+          <h2>Holler At'cha Girls!</h2>
+          <p>Feel free to drop a line or make your appointment using the contact form!</p>
+          <p>
+            <strong>Logan Square</strong><br />
+            2001 N. Point, Chicago, Il 60647<br />
+            NE corner of Artmitage & Point
+          </p>
+          <p>
+            <strong>Avondale</strong><br />
+            Little Sister<br />
+            3049 N Milwaukee Ave, Chicago, IL 60618
+          </p>
+        </div>
+        <div class="contact-form">
+          <form action="results.html" method="GET" enctype="multipart/form-data">
+            <div>
+              <label class="title" for="name">Name *</label><br />
+              <input class="form-text" type="name" name="name" id="name" required />
+            </div>
+            <br />
+            <div>
+              <label class="title" for="subject">Subject *</label><br />
+              <input class="form-text" type="subject" name="subject" id="subject" />
+            </div>
+            <br />
+            <div>
+              <label class="title" for="email">Email Address *</label><br />
+              <input class="form-text" type="email" name="email" id="email" />
+            </div>
+            <br />
+            <div>
+              <label class="title" for="phone">Phone *</label><br />
+              <input class="form-text" type="phone" name="phone" id="phone" />
+            </div>
+
+            <br />
+            <div>
+              <label class="title" for="date">Location</label><br />
+              <input type="checkbox" value="Classmate" /> <label for="classmate">Logan Square</label> <br />
+              <input type="checkbox" value="Resume Submission" /> <label for="Resume Submission">Avondale</label>
+            </div>
+            <br />
+            <div>
+              <label class="title" for="age">Message</label><br />
+              <textarea type="textarea" name="comments" id="comments" min="20" max="500" step="5" cols="30" rows="5"></textarea>
+            </div>
+            <br />
+            <div class="buttons"><button class="submit" type="submit">Submit</button><br /></div>
+          </form>
+        </div>
       </div>
       <footer>
         <div class="footer-row">
